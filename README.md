@@ -302,6 +302,6 @@ footer {
     }
 }
 
-# OUTPUT:![alt text](<Screenshot 2026-11-20 214755-1.png>)
+# OUTPUT:![TCP AND IP](<TCP AND IP.png>)
 # RESULT:
 Thus, the simple web server was successfully developed and executed in localhost (127.0.0.1:8000) to serve HTML pages and display the TCP/IP Protocol Suite protocols.
