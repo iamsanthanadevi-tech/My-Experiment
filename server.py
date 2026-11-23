@@ -1,14 +1,12 @@
 
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
-server_address = ("127.0.0.1", 8000)
+HOST = "127.0.0.1"
+PORT = 8000
 
-http_server = HTTPServer(
-    server_address,
-    SimpleHTTPRequestHandler
-)
+server = HTTPServer((HOST, PORT), SimpleHTTPRequestHandler)
 
-print("Web Server is running...")
-print("Open http://127.0.0.1:8000")
+print("TCP/IP Web Server Started!")
+print(f"Open your browser: http://{HOST}:{PORT}")
 
-http_server.serve_forever()
+server.serve_forever()
